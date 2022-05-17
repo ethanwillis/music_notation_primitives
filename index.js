@@ -1,6 +1,6 @@
 
 // Visual Components
-const staff = (x, y, width, height, margin) => (ctx) => {
+const staff = ({x, y, width, height, margin}) => (ctx) => {
   return {
     drawFunc: ({x, y, width, height, margin}) => {
       let staff_line_heights = [];
